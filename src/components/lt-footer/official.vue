@@ -6,9 +6,8 @@
 
 <script>
   export default {
-      name: 'offical-footer'
+    name: 'offical-footer'
   }
-
 </script>
 
 <style scoped lang="less">

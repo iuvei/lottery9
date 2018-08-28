@@ -11,13 +11,18 @@ export default {
 </script>
 <style lang="less">
 @import '~vux/src/styles/reset.less';
-@import "assets/styles/theme";
+@import "assets/styles/base";
 html {
   touch-action: manipulation;
 }
 body {
   background-color: @body-bg-color;
-  font-size: 0.32rem;
+  font-size: @font13;
   color: @body-color;
+  overflow: hidden;
+  #app{
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>
