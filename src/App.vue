@@ -16,7 +16,8 @@ html {
   touch-action: manipulation;
 }
 body {
-  background-color: @body-background-color;
+  background-color: @body-bg-color;
   font-size: 0.32rem;
+  color: @body-color;
 }
 </style>
