@@ -1,0 +1,35 @@
+windows:  xf
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+svn: feiker      123456
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+QQ£º1470394084   xb084t2x
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+skype£º1470394084@qq.com  hg1155ccoomm
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+BUGÏµÍ³£ºfeiker	  feiker123456
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+OAÏµÍ³£ºfeiker  x12345
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+²âÊÔ·¢°üµØÖ·£º
+https://101.102.225.2:9443/login/login.zul    mark    mark411324
+/²ÊÆ±²âÊÔ»·¾³
+/root/apps/tomcat8082/webapps/ROOT
+tar xvf dist.tar
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+// 8ºÅ²ÊÆ±wap·ÃÎÊÂ·¾¶
+http://172.16.28.91:8080/#/login/b8efd5bd-a4b8-42a9-af84-24c99ce6560a/1
+
+gitLabµØÖ·£º https://gitlab.com/feiker/lottery8_wap.git
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+// ÈÕ±¨Ä£°å
+Ê±¼ä:2018-08-29
+¹¤×÷ÄÚÈÝ£º
+ 8ºÅ²ÊÆ±wap¶Ë:
+    2. ¼´Ê±×¢µ¥bugÐÞ¸´
+    3. ¹Ù·½footer¹Ì¶¨
+²Ù×÷ÈË:Feiker
+    
+
+È«Ñ¡²âÊÔ½Å±¾
+var divs = document.querySelectorAll('.ssc-kj-item div, .ssc-kj-item-inner-item div,.lottery-plays li')
+for(var i=0; i<divs.length; i++) { divs[i].click()}
