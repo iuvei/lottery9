@@ -12,12 +12,18 @@
 </template>
 
 <script>
+import {getMenus} from '@/service/requests'
 export default {
   name: 'Home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  created () {
+    getMenus().then(res => {
+      console.log(res)
+    })
   }
 }
 </script>
@@ -26,6 +32,7 @@ export default {
   @import "../assets/styles/base";
   .lt-wapper {
     width: 7.5rem;
+    margin: 0 auto;
     .boxsize()
   }
 </style>

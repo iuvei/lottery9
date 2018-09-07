@@ -6,8 +6,8 @@ export default function setRem (doc, win) {
     if (!clientWidth) {
       return
     }
-    const fontSize = String(100 * (clientWidth / 750))
-    docEle.style.fontSize = `${fontSize}` + 'px'
+    const fontSize = 100 * (clientWidth / 750)
+    docEle.style.fontSize = `${fontSize > 100 ? 100 : fontSize}` + 'px'
   }
   if (!doc.addEventListener) return
   win.addEventListener(resizeEvt, resizeHandler, false)

@@ -8,6 +8,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'Index',
+      redirect: '/home'
+    },
+    {
+      path: '/home',
       name: 'Home',
       component: _import('views/Home')
     }
