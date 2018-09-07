@@ -1,9 +1,9 @@
 let storage = window.sessionStorage
 
-if (!setStorage) { // 是不是有sessionStorage
+if (!storage) { // 是不是有sessionStorage
   if (window.localStorage) {  // 是不是有localStorage
     storage = window.localStorage
-  } else {  // cookie处理
+  } else if (document.cookie && navigator.cookieEnabled) {  // cookie处理
     storage = {
       setItem: function (item, value) {
         let cookies = document.cookie.split(';')
@@ -63,6 +63,8 @@ if (!setStorage) { // 是不是有sessionStorage
         document.cookie = ''
       }
     }
+  } else {
+    alert('请开启cookie')
   }
 }
 export function setStorage (item, value) {
